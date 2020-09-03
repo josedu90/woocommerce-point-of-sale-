@@ -1,0 +1,13 @@
+.loadie {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	-webkit-transition: width 0.5s ease-out;
+}
+
+
+#tile_go_back.loading, .open_category.loading{
+	opacity: 0.3; !important;
+}
